@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view_screen"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignEnd="@+id/txt_views"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignRight="@+id/txt_views" />
+
+    <TextView
+        android:id="@+id/txt_description_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_views"
+        android:layout_marginTop="-228dp"
+        android:text="Description"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/txt_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="228dp"
+        android:layout_marginEnd="75dp"
+        android:text="Views"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="75dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="163dp"
+        android:text="Comments:"
+        android:layout_alignParentLeft="true" />
+
+    <ListView
+        android:id="@+id/list_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+    </ListView>
+
+
+
+</RelativeLayout>
