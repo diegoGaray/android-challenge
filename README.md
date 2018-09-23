@@ -32,6 +32,5 @@ dependencies {
 En esta url baso mi aplicación, en donde se muestran los post virales:
 https://api.imgur.com/3/gallery/hot/viral/0.json
 
-A considerar: la Aplicación tiene errores que “aparecen a veces”, ya que hay Tags que no tienen imágenes asociadas o extensiones  .gift y mp4 que no se muestran en un imageview. La pantalla principal muestra Tags duplicados ya que las galerías repiten los Tags, corregir eso no es difícil, pero tendría que rehacer la app de nuevo porque al eliminar los Tags duplicados se eliminan imágenes. Hay títulos que se repiten porque no todas las imágenes tienen un título asociado, así que te muestra el título de la galería.
 
 APK: https://play.google.com/store/apps/details?id=com.garapps.diego.techkandroiddevelopertest
